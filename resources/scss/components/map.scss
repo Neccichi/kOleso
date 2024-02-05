@@ -1,0 +1,21 @@
+.map {
+    padding: 65px 1vw 0;
+
+    background-color: $white;
+
+    &__text {
+        margin-bottom: 28px;
+
+        color: $grey-benefits;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    &__img {
+        width: 100%;
+        height: 48%;
+
+        object-fit: fill;
+    }
+}

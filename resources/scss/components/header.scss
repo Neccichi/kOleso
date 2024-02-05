@@ -1,0 +1,42 @@
+.header {
+    padding-top: 34px;
+    margin-bottom: 38px;
+
+    &__logo {
+        margin-right: 26px;
+    }
+
+    &__search {
+        padding: 10px 0 10px 70px;
+
+        width: 33vw;
+        height: 48px;
+
+        border-radius: 76.4px;
+
+        background-image: url('../../../public/src/img/icons/search.svg');
+        background-repeat: no-repeat;
+        background-size: 26.2px;
+        background-position: 22px 50%;
+    }
+
+    &__nav {
+        margin-right: 36px;
+
+        gap: 36px;
+
+        &__item {
+            font-size: 20px;
+            line-height: 120%;
+            letter-spacing: -0.22px;
+        }
+    }
+
+    &__btn {
+        height: 28px;
+
+        font-size: 13px;
+        letter-spacing: -0.26px;
+
+    }
+}

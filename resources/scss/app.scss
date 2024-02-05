@@ -1,0 +1,14 @@
+@import 'bootstrap';
+@import './reset';
+@import './vars';
+@import './mixins';
+@import './normalize';
+
+@import './components/header.scss';
+@import './components/top.scss';
+@import './components/filter.scss';
+@import './components/catalog.scss';
+@import './components/benefits.scss';
+@import './components/about.scss';
+@import './components/map.scss';
+@import './components/footer.scss';

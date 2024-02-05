@@ -1,0 +1,75 @@
+.filter {
+    padding: 41px 0 64px 0;
+    margin-bottom: 48px;
+
+    background-color: $white;
+    border-radius: 0 0 50px 50px;
+
+    &__img {
+        margin-bottom: 112px;
+    }
+
+    &__block {
+        width: 1214px;
+
+        &__left, &__right {
+            width: 466px;
+        }
+
+        &__item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            justify-content: space-between;
+
+            &:not(:last-of-type) {
+                margin-bottom: 31px;
+            }
+
+            label {
+                font-size: 22px;
+                font-weight: 600;
+                letter-spacing: -0.242px;
+            }
+
+            &__price {
+                gap: 40px;
+
+                input {
+                    width: 108px;
+                }
+            }
+
+            input {
+                width: 108px;
+            }
+
+            select {
+                width: max-content;
+            }
+
+            .filter__block__item__price input, input, select {
+                padding: 0 14px 0 5px;
+
+                background-color: $white;
+
+                &::placeholder {
+                    color: $grey;
+
+                    font-size: 20px;
+                    line-height: 100%;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    &__btn {
+        margin-top: 31px;
+
+        height: 38px;
+        width: 197px;
+        padding: 0 36px;
+    }
+}

@@ -1,0 +1,109 @@
+.catalog {
+    margin-bottom: 22px;
+
+    &__cards {
+        margin-bottom: 28px;
+
+        grid-template-columns: repeat(4, 304px);
+        grid-gap: 32px;
+    }
+
+    &__card {
+        // height: 400px;
+
+        padding: 24px 24px 29px;
+
+        border-radius: 10px;
+        background-color: $white;
+
+        &__title {
+            margin-bottom: 4px;
+
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.6px;
+        }
+
+        &__type {
+            margin-bottom: 7px;
+
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: -0.28px;
+
+            color: $grey;
+        }
+
+        &__img {
+            width: 100%;
+            height: 176px;
+
+            object-fit: cover;
+
+            margin-bottom: 24px;
+
+            border-radius: 10px;
+        }
+
+        &__desc {
+            margin-bottom: 15px;
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 4px 20px;
+
+            font-size: 9px;
+            font-weight: 600;
+            letter-spacing: -0.18px;
+
+            &__item {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            &__title {
+                color: $grey;
+            }
+
+            &__data {
+                color: $grey-dark;
+            }
+        }
+
+        &__bottom {
+            &__price {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+
+                line-height: 220%;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            &__btn {
+                padding: 0 20px;
+                width: 116px;
+
+                text-align: center;
+
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                line-height: 44px;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: -0.32px;
+            }
+        }
+    }
+
+    &__btn {
+        width: 156px;
+        height: 44px;
+
+        padding: 0 20px;
+
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.32px;
+    }
+}

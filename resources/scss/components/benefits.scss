@@ -1,0 +1,37 @@
+.benefits {
+    margin: 0 7vw 104px;
+    gap: 67px;
+
+    &__item {
+        width: 45vw;
+        gap: 60px;
+
+        &:not(:nth-child(3n)) {
+            margin-bottom: 60px;
+        }
+
+        &__img {
+            width: 52px;
+        }
+
+        &__text {
+            &__title {
+                margin-bottom: 12px;
+
+                color: $blue;
+
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 115%;
+            }
+
+
+            &__desc {
+                color: $grey-benefits;
+
+                font-size: 20px;
+                line-height: 115%;
+            }
+        }
+    }
+}

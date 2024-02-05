@@ -1,0 +1,69 @@
+.about {
+    padding: 60px 60px 60px 44px;
+
+    background-color: $white;
+
+    &__title {
+        margin-bottom: 38px;
+
+        color: $about-blue;
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: -0.64px;
+        text-transform: uppercase;
+    }
+
+    &__top__text,
+    &__bottom__text {
+        color: $about-blue;
+
+        text-align: justify;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        font-variant: small-caps;
+
+        & span {
+            color: $about-orange;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+
+    &__top {
+        margin-bottom: 50px;
+
+        padding-left: 72px;
+
+        &__img {
+            width: 452px;
+        }
+
+        &__text {
+            width: 51vw;
+        }
+    }
+
+    &__bottom {
+        padding-left: 54px;
+        padding-top: 50px;
+
+        &__img {
+            width: 643px;
+            height: 633px;
+
+            border-radius: 20px;
+
+            box-shadow: -54px -49px 0px 0px #D9D9D9;
+        }
+
+        &__text {
+            width: 45vw;
+            line-height: 120%;
+        }
+    }
+
+    &__sign {
+        right: 60px;
+    }
+}
